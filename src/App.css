@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  background-color: aliceblue;
+  background-image: url("./images/cracked.jpg");
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  background-position: center;
+}
+
+
+.App::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black layer */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  --bs-gutter-x: 0em;
+}
+.heatmap_row {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+#lollipop-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.paddingBottom {
+  height: 100px;
+}
+.radial_row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

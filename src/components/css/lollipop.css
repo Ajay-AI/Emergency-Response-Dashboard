@@ -1,0 +1,32 @@
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lollipop-line {
+    stroke-width: 2;
+}
+#lollipop-container {
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 10px grey;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 650px;
+    padding: 20px;
+    display: inline-block;
+    z-index: 1;
+    color: white;
+    fill: white;
+    /* border: 1px solid #ccc; */
+}
+
+.x-axis text, .y-axis text{
+    font-size: 11px;
+  }
+  
+#location-select, #start-date, #end-date, #filter-button {
+    margin-right: 10px;
+}
